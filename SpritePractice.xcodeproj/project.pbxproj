@@ -16,6 +16,10 @@
 		460A31FF1D3DCC6C0017822F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460A31FD1D3DCC6C0017822F /* LaunchScreen.storyboard */; };
 		460A320A1D3DCC6C0017822F /* SpritePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460A32091D3DCC6C0017822F /* SpritePracticeTests.swift */; };
 		460A32151D3DCC6C0017822F /* SpritePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460A32141D3DCC6C0017822F /* SpritePracticeUITests.swift */; };
+		460A32231D3DD0A90017822F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460A32221D3DD0A90017822F /* MenuViewController.swift */; };
+		460A32251D3DD18E0017822F /* SwipeGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460A32241D3DD18E0017822F /* SwipeGameViewController.swift */; };
+		460A32271D3DD29B0017822F /* SwipeGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460A32261D3DD29B0017822F /* SwipeGameScene.swift */; };
+		460A32291D3DD2C90017822F /* SwipeGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 460A32281D3DD2C90017822F /* SwipeGameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		460A32101D3DCC6C0017822F /* SpritePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpritePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		460A32141D3DCC6C0017822F /* SpritePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpritePracticeUITests.swift; sourceTree = "<group>"; };
 		460A32161D3DCC6C0017822F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460A32221D3DD0A90017822F /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		460A32241D3DD18E0017822F /* SwipeGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeGameViewController.swift; sourceTree = "<group>"; };
+		460A32261D3DD29B0017822F /* SwipeGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeGameScene.swift; sourceTree = "<group>"; };
+		460A32281D3DD2C90017822F /* SwipeGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SwipeGameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				460A31FB1D3DCC6C0017822F /* Assets.xcassets */,
 				460A31FD1D3DCC6C0017822F /* LaunchScreen.storyboard */,
 				460A32001D3DCC6C0017822F /* Info.plist */,
+				460A32221D3DD0A90017822F /* MenuViewController.swift */,
+				460A32241D3DD18E0017822F /* SwipeGameViewController.swift */,
+				460A32261D3DD29B0017822F /* SwipeGameScene.swift */,
+				460A32281D3DD2C90017822F /* SwipeGameScene.sks */,
 			);
 			path = SpritePractice;
 			sourceTree = "<group>";
@@ -237,6 +249,7 @@
 			files = (
 				460A31F31D3DCC6C0017822F /* GameScene.sks in Resources */,
 				460A31FF1D3DCC6C0017822F /* LaunchScreen.storyboard in Resources */,
+				460A32291D3DD2C90017822F /* SwipeGameScene.sks in Resources */,
 				460A31FC1D3DCC6C0017822F /* Assets.xcassets in Resources */,
 				460A31FA1D3DCC6C0017822F /* Main.storyboard in Resources */,
 			);
@@ -263,9 +276,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460A32251D3DD18E0017822F /* SwipeGameViewController.swift in Sources */,
 				460A31F51D3DCC6C0017822F /* GameScene.swift in Sources */,
 				460A31F71D3DCC6C0017822F /* GameViewController.swift in Sources */,
 				460A31F11D3DCC6C0017822F /* AppDelegate.swift in Sources */,
+				460A32231D3DD0A90017822F /* MenuViewController.swift in Sources */,
+				460A32271D3DD29B0017822F /* SwipeGameScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

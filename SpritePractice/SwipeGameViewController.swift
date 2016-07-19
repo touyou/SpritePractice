@@ -1,22 +1,23 @@
 //
-//  GameViewController.swift
+//  SwipeGameViewController.swift
 //  SpritePractice
 //
 //  Created by 藤井陽介 on 2016/07/19.
-//  Copyright (c) 2016年 touyou. All rights reserved.
+//  Copyright © 2016年 touyou. All rights reserved.
 //
 
 import UIKit
 import SpriteKit
 
-final class GameViewController: UIViewController {
+final class SwipeGameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("GameViewController")
+        print("SwipeGameViewController")
 
-        if let scene = GameScene(fileNamed:"GameScene") {
+        // Do any additional setup after loading the view.
+        if let scene = SwipeGameScene(fileNamed:"SwipeGameScene") {
             // Configure the view.
             let skView = self.view as! SKView
             skView.showsFPS = true
@@ -52,4 +53,5 @@ final class GameViewController: UIViewController {
     override func prefersStatusBarHidden() -> Bool {
         return false
     }
+
 }

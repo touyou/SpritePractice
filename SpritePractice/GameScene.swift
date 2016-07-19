@@ -8,8 +8,9 @@
 
 import SpriteKit
 
-class GameScene: SKScene {
+final class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
+        print("GameScene")
         // フレームサイズをビューの境界と同じにする
         self.size = view.bounds.size
         // 重力の向きと強さの設定

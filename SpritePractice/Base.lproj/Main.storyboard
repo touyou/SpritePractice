@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BV1-FR-VrT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MZG-T4-xuk">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -21,6 +21,110 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1643" y="391"/>
+        </scene>
+        <!--Swipe Game View Controller-->
+        <scene sceneID="rOz-e0-BAm">
+            <objects>
+                <viewController id="Maa-tm-GzU" customClass="SwipeGameViewController" customModule="SpritePractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JoY-5I-93f"/>
+                        <viewControllerLayoutGuide type="bottom" id="OnE-QS-eiB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UPv-hv-Tci" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="93F-km-OH7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1699" y="1593"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="tD8-TN-cd0">
+            <objects>
+                <viewController id="c22-v2-Vd1" customClass="MenuViewController" customModule="SpritePractice" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mmh-b9-fXy"/>
+                        <viewControllerLayoutGuide type="bottom" id="iQo-aW-cH2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xjY-mn-cbI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SpriteKit Practice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49o-Xa-k9V">
+                                <rect key="frame" x="225" y="120" width="150.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="te6-dJ-6dc">
+                                <rect key="frame" x="225.5" y="240.5" width="150" height="32"/>
+                                <color key="backgroundColor" red="0.12156900018453598" green="0.12941199541091919" blue="0.1568630039691925" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="qO3-3R-GZL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="15"/>
+                                <state key="normal" title="ブロック落とし">
+                                    <color key="titleColor" red="0.97647100687026978" green="0.97254902124404907" blue="0.96078401803970337" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="toBlockGame" destination="c22-v2-Vd1" eventType="touchUpInside" id="jHO-Ub-EsF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVb-iP-vaC">
+                                <rect key="frame" x="225.5" y="322.5" width="150" height="32"/>
+                                <color key="backgroundColor" red="0.1215690002" green="0.12941199540000001" blue="0.156863004" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="NaH-La-SJO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="15"/>
+                                <state key="normal" title="スワイプ遊び">
+                                    <color key="titleColor" red="0.97647100689999999" green="0.97254902119999997" blue="0.96078401800000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="toSwipeGame" destination="c22-v2-Vd1" eventType="touchUpInside" id="u9V-h1-Cjl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="te6-dJ-6dc" firstAttribute="top" secondItem="49o-Xa-k9V" secondAttribute="bottom" constant="100" id="ELe-am-NkY"/>
+                            <constraint firstItem="49o-Xa-k9V" firstAttribute="centerX" secondItem="xjY-mn-cbI" secondAttribute="centerX" id="Xxp-Jf-WJq"/>
+                            <constraint firstItem="eVb-iP-vaC" firstAttribute="top" secondItem="te6-dJ-6dc" secondAttribute="bottom" constant="50" id="ayR-Xo-oKV"/>
+                            <constraint firstItem="eVb-iP-vaC" firstAttribute="centerX" secondItem="xjY-mn-cbI" secondAttribute="centerX" id="pC9-3t-UbB"/>
+                            <constraint firstItem="te6-dJ-6dc" firstAttribute="centerX" secondItem="xjY-mn-cbI" secondAttribute="centerX" id="t8g-jo-XCW"/>
+                            <constraint firstItem="49o-Xa-k9V" firstAttribute="top" secondItem="Mmh-b9-fXy" secondAttribute="bottom" constant="100" id="wbm-dF-qrD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="CnO-0k-TDL"/>
+                    <connections>
+                        <segue destination="BV1-FR-VrT" kind="show" identifier="toBlockGame" id="lXV-SY-AZH"/>
+                        <segue destination="Maa-tm-GzU" kind="show" identifier="toSwipeGame" id="sAe-Zl-GYb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TPR-D2-zr9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="965" y="886"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LSX-oc-oOn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MZG-T4-xuk" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="s1W-JW-hgP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="c22-v2-Vd1" kind="relationship" relationship="rootViewController" id="c4A-wu-pp6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Sd-RQ-d80" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="113" y="895"/>
         </scene>
     </scenes>
 </document>
