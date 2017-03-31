@@ -54,13 +54,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SpriteKit Practice" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="49o-Xa-k9V">
-                                <rect key="frame" x="225" y="120" width="150.5" height="20.5"/>
+                                <rect key="frame" x="225" y="164" width="150.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="te6-dJ-6dc">
-                                <rect key="frame" x="225.5" y="240.5" width="150" height="32"/>
+                                <rect key="frame" x="225.5" y="284.5" width="150" height="32"/>
                                 <color key="backgroundColor" red="0.12156900018453598" green="0.12941199541091919" blue="0.1568630039691925" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="qO3-3R-GZL"/>
@@ -74,7 +74,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVb-iP-vaC">
-                                <rect key="frame" x="225.5" y="322.5" width="150" height="32"/>
+                                <rect key="frame" x="225.5" y="366.5" width="150" height="32"/>
                                 <color key="backgroundColor" red="0.1215690002" green="0.12941199540000001" blue="0.156863004" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="NaH-La-SJO"/>
